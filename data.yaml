@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Amanita_Pantherina', 'Entoloma_Lividum', 'Hydnum_Rufescens']
+
+roboflow:
+  workspace: mushrooms-cup2k
+  project: custom-workflow-object-detection-djtx4
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mushrooms-cup2k/custom-workflow-object-detection-djtx4/dataset/3
